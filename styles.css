@@ -1,0 +1,49 @@
+body {
+  background-color: lightgray;
+}
+
+.heading {
+  font-family: 'Kadwa', serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.vacationPic {
+  margin: 2%;
+  text-align: center;
+  display: block;
+}
+
+input {
+  display: block;
+  margin: 5px;
+  text-align: center;
+  width: 15%;
+  margin: 1% auto;
+  background-color: lightblue;
+  border-radius: 4px;
+}
+
+input:hover {
+  color: blue;
+  font-size: 20px;
+
+}
+
+.input, .output {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 20px;
+}
+
+div.links {
+  display: block;
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 25%;
+  text-align: center;
+}
+
+.person {
+  font-size: 20px;
+}
