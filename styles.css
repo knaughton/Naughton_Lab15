@@ -1,49 +1,105 @@
 body {
-  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+  background-color: #DDD;
 }
 
-.heading {
-  font-family: 'Kadwa', serif;
-  font-size: 36px;
-  text-align: center;
+header {
+  background-color: #46cf63;
+  padding-top: 30px;
+  margin-top: 0;
 }
 
-.vacationPic {
-  margin: 2%;
+h1 {
   text-align: center;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.2em;
+  font-size: 4em;
+  color: white;
+  text-shadow: 0 4px 10px #DDD;
+}
+
+h4 {
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #DDD;
+}
+
+a {
   display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Economica', sans-serif;
 }
 
-input {
-  display: block;
-  margin: 5px;
-  text-align: center;
-  width: 15%;
-  margin: 1% auto;
-  background-color: lightblue;
+a:link, a:visited {
+  color: #ddd;
+}
+
+a:hover {
+  background-color: #28873c;
   border-radius: 4px;
 }
 
-input:hover {
-  color: blue;
-  font-size: 20px;
-
+input {
+  margin: 8px auto;
+  width: 22%;
+  font-family: 'Economica', sans-serif;
+  font-size: 0.7em;
+  background-color: white;;
+  color: gray;
+  padding: 4px;
+  border-radius: 8px;
+  border: 2px double #444444;
 }
 
-.input, .output {
-  font-family: 'Ubuntu Condensed', sans-serif;
-  font-size: 20px;
-}
-
-div.links {
+#send-button {
+  padding: 8px;
+  background-color: #28873c;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
   display: block;
-  font-family: 'Bangers', cursive;
-  font-size: 20px;
-  margin: 0 auto;
-  width: 25%;
-  text-align: center;
+  margin: 20px auto;
 }
 
-.person {
-  font-size: 20px;
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: gray;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: gray;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: gray;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: gray;
+}
+
+#input-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  margin: 20px auto;
+}
+
+#result-container {
+  width: 60%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 16px;
+}
+
+#result-container p {
+  position: relative;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1.2em;
+  z-index: 1;
+
 }
